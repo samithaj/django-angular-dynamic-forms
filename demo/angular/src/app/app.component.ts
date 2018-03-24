@@ -52,6 +52,15 @@ import {environment} from '../environments/environment';
                         <mat-expansion-panel>
                             <mat-expansion-panel-header>
                                 <mat-panel-title>
+                                    Foreign keys and many-to-many
+                                </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <a routerLink="/foreign">Foreign Key</a>
+                            <a routerLink="/all-controls">m2m in All available controls and layout demo</a>
+                        </mat-expansion-panel>
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                                <mat-panel-title>
                                     All controls and layout
                                 </mat-panel-title>
                             </mat-expansion-panel-header>
